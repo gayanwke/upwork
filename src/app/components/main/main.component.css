@@ -1,0 +1,42 @@
+mat-spinner {
+  margin-top: 1rem;
+  padding: auto;
+}
+
+h3 {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+mat-spinner {
+  display: inline-block;
+}
+
+mat-card {
+  margin-bottom: 1rem;
+}
+
+mat-expansion-panel-header {
+  padding: 0 12px;
+}
+
+.mat-expansion-panel-body {
+  padding: 0 12px 16px !important;
+}
+
+mat-form-field {
+  padding-right: 1rem;
+}
+
+.mat-expansion-panel-header-description {
+  justify-content: flex-end;
+  padding-right: 1rem;
+}
+
+::ng-deep .mat-expansion-panel-header[aria-disabled=true] .mat-expansion-panel-header-title {
+  color: rgba(0,0,0,.87);
+}
+
+::ng-deep .mat-expansion-panel-header[aria-disabled=true] .mat-expansion-panel-header-description {
+  color: rgba(0,0,0,.54);
+}
